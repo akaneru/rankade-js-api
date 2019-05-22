@@ -1,7 +1,19 @@
 # Rankade Javascript API implementation
 
-Implementation of the rankade javascript api https://rankade.com/api
+Javascript implementation of the rankade api https://rankade.com/api
+
+## Install
+
+    yarn add rankade-api
 
 ## Usage
 
-    yarn add rankade-api
+@todo
+
+## Todo
+
+- Api errors
+
+## Change log
+
+- 2019-05-22 started implementation of basic calls
