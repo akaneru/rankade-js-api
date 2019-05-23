@@ -10,10 +10,7 @@ Javascript implementation of the rankade api https://rankade.com/api
 
 @todo
 
-## Todo
-
-- Api errors
-
 ## Change log
 
+- 2019-05-23 api errors parse
 - 2019-05-22 started implementation of basic calls
