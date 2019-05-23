@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Rankade Javascript API implementation",
   "main": "index.js",
-  "repository": "https://github.com/akaneru/rankade-api",
+  "repository": "https://github.com/akaneru/rankade-js-api",
   "author": "akaneru",
   "license": "MIT",
   "dependencies": {
