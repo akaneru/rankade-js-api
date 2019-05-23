@@ -51,9 +51,9 @@ In order to use API for your group you need to obtain API credentials by followi
     
 ### Implemented methods
 
-#### Auth
+#### Authentication
 
-- <code>rankade.auth.auth()</code> perform authentication
+- <code>rankade.auth.auth()</code> perform authentication and obtain the JWT token used for other API calls
 
 #### Games
 
@@ -78,5 +78,5 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
-- 2019-05-23 api errors parse
+- 2019-05-23 api errors parsing
 - 2019-05-22 started implementation of basic calls
