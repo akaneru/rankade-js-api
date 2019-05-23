@@ -4,3 +4,4 @@ package-lock.json
 tests/
 .project
 .settings
+npm-debug.log
