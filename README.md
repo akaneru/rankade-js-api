@@ -4,7 +4,7 @@ Javascript implementation of the rankade api https://rankade.com/api
 
 ## Install
 
-    yarn add rankade-api
+    yarn add rankade-js-api
 
 ## Usage
 
@@ -48,6 +48,8 @@ In order to use API for your group you need to obtain API credentials by followi
       console.log(errorFound)
       
     })
+    
+### Implemented methods
 
 ## Change log
 
