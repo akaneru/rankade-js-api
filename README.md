@@ -65,6 +65,8 @@ In order to use API for your group you need to obtain API credentials by followi
 #### Matches
 
 - <code>rankade.matches.create(matches, dryrun)</code> create matches by giving an array of objects accordant to specifications https://rankade.com/api#post-matches-match (see below the **Match's object properties detail** captcher)
+- <code>rankade.matches.exists(id)</code> check if a match already exists
+- <code>rankade.matches.status()</code>retrieve matches' queue/elaboration status
 
 #### Players
 
