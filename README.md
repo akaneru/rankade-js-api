@@ -1,6 +1,6 @@
 # Rankade Javascript API implementation
 
-Javascript implementation of the rankade api https://rankade.com/api
+Javascript implementation of the rankade API https://rankade.com/api
 
 ## Install
 
@@ -16,44 +16,46 @@ In order to use API for your group you need to obtain API credentials by followi
 
 
     'use strict'
-    
+
     const Rankade = require('rankade-js-lib')
-    
+
     // obtain credentials from group's API setting page
     const rankade = new Rankade(
       'https://api.endpoint',
       'key',
       'secret'
     )
-    
+
     rankade.auth.auth()
       .then(success => {
-    
+
         rankade.quota.quota()
           .then(success => {
-            
+
             let quota = success.data.success
             console.log(quota)
-            
+
         }).catch(error => {
-          
+
             let errorFound = rankade.errors.parse(error)
             console.log(errorFound)
-            
+
         })
-    
+
     }).catch(error => {
-      
+
       let errorFound = rankade.errors.parse(error)
       console.log(errorFound)
-      
+
     })
-    
-### Implemented methods
+
+### Implemented API methods
 
 #### Authentication
 
 - <code>rankade.auth.auth()</code> perform authentication and obtain the JWT token used for other API calls
+- <code>rankade.auth.getAccessToken()</code> retrieve the JWT token string
+- <code>rankade.auth.isExpired()</code> check if the token provided with the <code>rankade.auth.auth()<code> method is expired or not
 
 #### Games
 
