@@ -80,5 +80,6 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2019-05-29 added the <code>rankade.auth.isExpired()</code> method and updated the readme file
 - 2019-05-23 api errors parsing
 - 2019-05-22 started implementation of basic calls
