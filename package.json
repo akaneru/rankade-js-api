@@ -1,6 +1,6 @@
 {
   "name": "rankade-js-api",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Rankade Javascript API implementation",
   "main": "index.js",
   "repository": "https://github.com/akaneru/rankade-js-api",
