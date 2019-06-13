@@ -72,7 +72,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 #### Players
 
-- <code>rankade.players.players()</code> retrieve group's players
+- <code>rankade.players.players(page)</code> retrieve group's players
 
 #### Quota
 
