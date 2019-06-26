@@ -53,7 +53,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 - <code>rankade.auth.auth()</code> perform authentication and obtain the JWT token used for other API calls
 - <code>rankade.auth.getAccessToken()</code> retrieve the JWT token string
-- <code>rankade.auth.setAccessToken(token)</code> retrieve the JWT token string
+- <code>rankade.auth.setAccessToken(token)</code> set the JWT token string
 - <code>rankade.auth.isExpired()</code> check if the token provided with the <code>rankade.auth.auth()</code> method is expired or not
 
 #### Games
