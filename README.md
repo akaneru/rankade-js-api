@@ -72,6 +72,7 @@ In order to use API for your group you need to obtain API credentials by followi
 #### Players
 
 - <code>rankade.players.players(page)</code> retrieve group's players
+- <code>rankade.players.player(name)</code> create a ghost player
 
 #### Quota
 
@@ -79,6 +80,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2019-08-08 added the <code>rankade.players.player(name)</code> method,
 - 2019-06-26 added the <code>rankade.auth.setAccessToken(token)</code> method and updated the readme file
 - 2019-06-18 added the <code>rankade.setKey(key)</code>, <code>rankade.setSecret(secret)</code> methods and players pagination
 - 2019-05-29 added the <code>rankade.auth.isExpired()</code> method and updated the readme file
