@@ -23,7 +23,8 @@ In order to use API for your group you need to obtain API credentials by followi
     const rankade = new Rankade(
       'https://api.endpoint',
       'key',
-      'secret'
+      'secret',
+      1500 // timeout
     )
 
     rankade.auth.auth()
