@@ -10,7 +10,7 @@ Javascript implementation of the rankade API https://rankade.com/api
 
 ### API access
 
-In order to use API for your group you need to obtain API credentials by following that istructions https://rankade.com/api#intro
+In order to use API for your group you need to obtain API credentials by following that instructions https://rankade.com/api#intro
 
 ### Usage
 
@@ -75,13 +75,21 @@ In order to use API for your group you need to obtain API credentials by followi
 - <code>rankade.players.players(page)</code> retrieve group's players
 - <code>rankade.players.player(name)</code> create a ghost player
 
+#### Subsets
+
+- <code>rankade.subsets.list()</code> retrieve group's subsets
+
+#### Rankings
+
+- <code>rankade.rankings.list(subset = 'main', match = 'last', page = 1)</code> retrieve group's rankings
+
 #### Quota
 
 - <code>rankade.quota.quota()</code> retrieve group's API quota usage
 
 ## Change log
 
-- 2019-08-08 added the <code>rankade.players.player(name)</code> method,
+- 2019-08-21 added the <code>rankade.rankings.list and rankade.subsets.list</code> methods
 - 2019-06-26 added the <code>rankade.auth.setAccessToken(token)</code> method and updated the readme file
 - 2019-06-18 added the <code>rankade.setKey(key)</code>, <code>rankade.setSecret(secret)</code> methods and players pagination
 - 2019-05-29 added the <code>rankade.auth.isExpired()</code> method and updated the readme file
