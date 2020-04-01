@@ -68,7 +68,8 @@ In order to use API for your group you need to obtain API credentials by followi
 
 - <code>rankade.matches.create(matches, dryrun)</code> create matches by giving an array of objects accordant to specifications https://rankade.com/api#post-matches-match (see below the **Match's object properties detail** captcher)
 - <code>rankade.matches.exists(id)</code> check if a match already exists
-- <code>rankade.matches.status()</code>retrieve matches' queue/elaboration status
+- <code>rankade.matches.status()</code> retrieve matches' queue/elaboration status
+- <code>rankade.matches.list(subset = 'main', page = 1)</code> retrieve group's matches
 
 #### Players
 
@@ -89,6 +90,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2020-04-01 added the <code>rankade.matches.list</code> method
 - 2019-08-21 added the <code>rankade.rankings.list and rankade.subsets.list</code> methods
 - 2019-08-08 added the <code>rankade.players.player(name)</code> method
 - 2019-06-26 added the <code>rankade.auth.setAccessToken(token)</code> method and updated the readme file
