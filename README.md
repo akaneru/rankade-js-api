@@ -1,6 +1,6 @@
-# Rankade Javascript API implementation
+# Rankade JavaScript API implementation
 
-Javascript implementation of the rankade API https://rankade.com/api
+JavaScript implementation of the rankade API https://rankade.com/api
 
 ## Install
 
@@ -90,6 +90,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2020-07-18 reformat code
 - 2020-04-01 added the <code>rankade.matches.list</code> method
 - 2019-08-21 added the <code>rankade.rankings.list and rankade.subsets.list</code> methods
 - 2019-08-08 added the <code>rankade.players.player(name)</code> method
