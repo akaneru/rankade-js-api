@@ -12,7 +12,7 @@ JavaScript implementation of the rankade API https://rankade.com/api
 
 In order to use API for your group you need to obtain API credentials by following that instructions https://rankade.com/api#intro
 
-### Usage
+### Usage with node
 
 
     'use strict'
