@@ -1,6 +1,6 @@
-# Rankade JavaScript API implementation
+# Node.js module for rankade API
 
-JavaScript implementation of the rankade API https://rankade.com/api
+API reference https://rankade.com/api
 
 ## Install
 
@@ -12,7 +12,7 @@ JavaScript implementation of the rankade API https://rankade.com/api
 
 In order to use API for your group you need to obtain API credentials by following that instructions https://rankade.com/api#intro
 
-### Usage with node
+### Example
 
 
     'use strict'
@@ -49,6 +49,8 @@ In order to use API for your group you need to obtain API credentials by followi
       console.log(errorFound)
 
     })
+
+### Reference
 
 #### Authentication
 
@@ -90,6 +92,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2020-12-15 error object check in parse() function, readme edits
 - 2020-07-18 reformat code
 - 2020-04-01 added the <code>rankade.matches.list</code> method
 - 2019-08-21 added the <code>rankade.rankings.list and rankade.subsets.list</code> methods
