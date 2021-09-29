@@ -92,6 +92,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2021-09-29 dependencies packages upgrade
 - 2020-12-15 error object check in parse() function, readme edits
 - 2020-07-18 reformat code
 - 2020-04-01 added the <code>rankade.matches.list</code> method
