@@ -1,14 +1,14 @@
 {
   "name": "rankade-js-api",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Rankade Javascript API implementation",
   "main": "index.js",
   "repository": "https://github.com/akaneru/rankade-js-api",
   "author": "akaneru",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
-    "jws": "^3.2.2",
-    "query-string": "^6.5.0"
+    "axios": "^0.21.4",
+    "jws": "^4.0.0",
+    "query-string": "^7.0.1"
   }
 }
