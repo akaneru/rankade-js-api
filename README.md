@@ -14,7 +14,6 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ### Example
 
-
     'use strict'
 
     const Rankade = require('rankade-js-lib')
@@ -92,6 +91,7 @@ In order to use API for your group you need to obtain API credentials by followi
 
 ## Change log
 
+- 2022-06-03 dependencies packages upgrade to latest version
 - 2021-09-29 dependencies packages upgrade
 - 2020-12-15 error object check in parse() function, readme edits
 - 2020-07-18 reformat code
