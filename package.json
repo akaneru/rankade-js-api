@@ -7,8 +7,8 @@
   "author": "akaneru",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.13.0",
     "jws": "^4.0.0",
-    "query-string": "^7.0.1"
+    "query-string": "^9.3.1"
   }
 }
